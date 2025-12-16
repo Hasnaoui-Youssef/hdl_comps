@@ -1,0 +1,7 @@
+v 4
+file "/home/youssef/projects/vhdl_projects/tv_parts/" "testbench/rgb2g_tb.vhd" "671dec2c6daa7e0c60081af4125a7492dec28d32" "20251216085641.727":
+  entity rgb2g_tb at 1( 0) + 0 on 13;
+  architecture rtl of rgb2g_tb at 8( 111) + 0 on 14;
+file "/home/youssef/projects/vhdl_projects/tv_parts/" "src/rgb2g.vhd" "fe02f7682f5a520dc4a7f2f46691bd84d6964d5c" "20251216085641.722":
+  entity rgb2g at 1( 0) + 0 on 11;
+  architecture rtl of rgb2g at 16( 337) + 0 on 12;
