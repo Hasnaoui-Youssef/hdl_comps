@@ -1,5 +1,11 @@
 # vhdl files
-FILES = src/rgb2g.vhd
+FILES = src/clk_div.vhd \
+		src/loop_filter.vhd \
+		src/nco.vhd \
+		src/pfd.vhd \
+		src/pll.vhd \
+		src/pwm.vhd \
+		src/rgb2g.vhd \
 
 # testbench
 TESTBENCHPATH = testbench/${TESTBENCHFILE}.vhd
@@ -10,7 +16,7 @@ WORKDIR = work
 GHDL_CMD = ghdl
 GHDL_FLAGS  = --std=08 --ieee=synopsys --warn-no-vital-generic --workdir=$(WORKDIR)
 
-STOP_TIME = 1000ns
+STOP_TIME = 40us
 # Simulation break condition
 #GHDL_SIM_OPT = --assert-level=error
 GHDL_SIM_OPT = --stop-time=$(STOP_TIME)
